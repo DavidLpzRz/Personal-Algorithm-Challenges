@@ -36,7 +36,9 @@ calcularCaminoMasLargo(matriz); // Returns 21 (2 → 3 → 7 → 6 → 5)
 
 ### 🧠 Key Concepts
 Dynamic Programming
+
 Matrix traversal
+
 Optimization problems
 
 
@@ -46,8 +48,11 @@ Optimization problems
 Write a static function boolean verificarSudoku(int[][] tablero) that checks whether a 9x9 Sudoku grid is valid.
 
 A Sudoku is valid if:
+
 Each row contains numbers from 1 to 9 without repetition
+
 Each column contains numbers from 1 to 9 without repetition
+
 Each 3x3 subgrid contains numbers from 1 to 9 without repetition
 
 📌 Example
@@ -69,7 +74,9 @@ verificarSudoku(tablero); // Returns true
 
 ### 🧠 Key Concepts
 Arrays and matrices
+
 Validation logic
+
 Set-based checks
 
 ## 🔢 Challenge 3: Recursive Fibonacci Numbers
@@ -79,19 +86,25 @@ Implement a recursive static function that calculates the n-th Fibonacci number,
 
 ### 📌 Function Signatures
 public static int fibonacci(int n);
+
 public static void generarFibonacci(int n);
 
 ### 🧠 Key Concepts
 Recursion
+
 Base cases
+
 Time complexity considerations
 
 ## ➕ Challenge 4: Recursive Digit Sum
 ### 📌 Description
 
 Create a recursive static function that calculates the sum of the digits of a positive integer.
+
 The function must decompose the number into digits
+
 Sum each digit recursively
+
 If the number is negative, handle the error appropriately
 
 ### 📌 Examples
@@ -105,5 +118,7 @@ Output: 30  (9 + 8 + 7 + 6)
 
 ### 🧠 Key Concepts
 Recursion
+
 Mathematical decomposition
+
 Input validation
